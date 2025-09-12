@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style> /*comentário*/ 
+
+    </style>
+    <!--CSS INTERNO-->
+
+</head>
+<body>
+    <div class="caixa">
+        <H2>formulário de contato</H2>
+        <form>
+            <label for="Nome">Nome</label>
+            <input type="text" placeholder="Digite o seu nome:" name="nome"/>
+            <br>
+
+            <label for="Telefone">Telefone</label>
+            <input type="Tel" placeholder="Digite o seu telefone" name="Telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+            <br>
+
+            <label for="Email">Email</label>
+            <input type="email" placeholder="Digite o seu e-mail" name="email">
+            <br>
+
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="Mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
